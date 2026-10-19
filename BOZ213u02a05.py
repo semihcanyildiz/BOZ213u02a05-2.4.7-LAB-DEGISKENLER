@@ -1,7 +1,9 @@
 Keloğlan = 3
 Balkız = 5
 Keloğlanın_Anası = 6
-print("Sırasıyla Elma Sayıları:", Keloğlan, ",", Balkız,",", Keloğlanın_Anası, sep="")
+print("Keloğlan, Balkız, Keloğlanın Anası")
+print("Sırasıyla Elma Sayıları: ", end="")
+print(Keloğlan, Balkız, Keloğlanın_Anası, sep=",")
 toplam_elma = Keloğlan + Balkız + Keloğlanın_Anası
 print("toplam_elma=", toplam_elma)
 Aksakallı = 1
